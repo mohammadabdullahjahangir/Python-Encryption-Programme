@@ -17,7 +17,7 @@ for letters in original_message:
 
 #Displaying encrytped message 
 print(f'Original message: {original_message}')
-print(f'Encrypted message: {encrypted_message}')    
+print(f'Encrypted message: {encrypted_message}')   
 
 
 
