@@ -1,0 +1,24 @@
+import random
+import string
+
+characters = string.ascii_letters + string.digits + string.punctuation + ''
+characters = list(characters)
+key = characters.copy()
+random.shuffle(key)
+
+#Entering a password
+original_message = input('Enter the password to encrypt: ')
+encrypted_message = ''
+
+# Encrypting the password
+for letters in original_message:
+     index = characters.index(letters)
+     encrypted_message += key[index]
+
+#Displaying encrytped message 
+print(f'Original message: {original_message}')
+print(f'Encrypted message: {encrypted_message}')    
+
+
+
+
