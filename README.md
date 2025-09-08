@@ -7,8 +7,6 @@ Each run produces a different cipher key, so encrypted messages cannot be decryp
 
 EXAMPLE
 
-Enter the password to encrypt: Hello123!
-Original message: Hello123!
-Encrypted message: #Xqq~lVW:
+<img width="1146" height="42" alt="Screenshot 2025-09-08 at 17 59 40" src="https://github.com/user-attachments/assets/93c00c58-fa73-45f7-9fc9-9d4a38656906" />
 
 
